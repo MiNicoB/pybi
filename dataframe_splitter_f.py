@@ -10,6 +10,7 @@ def df_splitter(df):
 
   else:
     #create a list for appedning split dfs
+    global df_list
     df_list = []
 
     #calc full splits of the df
