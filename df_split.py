@@ -25,5 +25,5 @@ for i in dfl_0:
     dfl_1.append(py_player_kills)
 
 dataset = pd.DataFrame(pd.concat(dfl_1).groupby('player_name')['player_kills'].sum())
-
-
+dataset['player_name'] = dataset.index
+print(dataset)
