@@ -1,4 +1,6 @@
 # split pandas df based on size in memory
+import numpy as np
+import pandas as pd
 
 def df_splitter(df):
   max_mem_usage = 373*10**6 #*1048576
